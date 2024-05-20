@@ -9,3 +9,17 @@ p {
     width: 50%;
     height: 250px;
 }
+
+nav > ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
